@@ -1,0 +1,1867 @@
+<!DOCTYPE Workspace>
+<Workspace>
+ <Creator>
+  <Name>Q Light Controller</Name>
+  <Version>3.3.0-r2688</Version>
+  <Author></Author>
+ </Creator>
+ <Engine>
+  <Fixture>
+   <Manufacturer>Chauvet</Manufacturer>
+   <Model>Elan</Model>
+   <Mode>DMX</Mode>
+   <ID>0</ID>
+   <Name>Elan 1</Name>
+   <Universe>0</Universe>
+   <Address>24</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Chauvet</Manufacturer>
+   <Model>Elan</Model>
+   <Mode>DMX</Mode>
+   <ID>1</ID>
+   <Name>Elan 2</Name>
+   <Universe>0</Universe>
+   <Address>18</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>American-DJ</Manufacturer>
+   <Model>Pearl</Model>
+   <Mode>DMX</Mode>
+   <ID>2</ID>
+   <Name>Pearl</Name>
+   <Universe>0</Universe>
+   <Address>16</Address>
+   <Channels>2</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Chauvet</Manufacturer>
+   <Model>COLORpalette</Model>
+   <Mode>27 channel</Mode>
+   <ID>3</ID>
+   <Name>COLORpalette</Name>
+   <Universe>0</Universe>
+   <Address>32</Address>
+   <Channels>27</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Chauvet</Manufacturer>
+   <Model>Scorpion-Storm-FX</Model>
+   <Mode>DMX</Mode>
+   <ID>4</ID>
+   <Name>Scorpion</Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>7</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>American-DJ</Manufacturer>
+   <Model>Comscan-LED</Model>
+   <Mode>DMX</Mode>
+   <ID>5</ID>
+   <Name>Comscan LED</Name>
+   <Universe>0</Universe>
+   <Address>59</Address>
+   <Channels>5</Channels>
+  </Fixture>
+  <Function Type="Scene" Name="CP Sharp color change" ID="0">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="3" Channel="0">80</Value>
+  </Function>
+  <Function Type="Scene" Name="CP Marching squares" ID="1">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="3" Channel="0">90</Value>
+  </Function>
+  <Function Type="Scene" Name="CP Marching bars" ID="2">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="3" Channel="0">100</Value>
+  </Function>
+  <Function Type="Scene" Name="Elan 1 green off" ID="3">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="0" Channel="1">0</Value>
+  </Function>
+  <Function Type="Scene" Name="CP Square at a time color change" ID="4">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="3" Channel="0">180</Value>
+  </Function>
+  <Function Type="Scene" Name="CP Marching quarters" ID="5">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="3" Channel="0">110</Value>
+  </Function>
+  <Function Type="Scene" Name="CP Red marching white bar" ID="6">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="3" Channel="0">120</Value>
+  </Function>
+  <Function Type="Scene" Name="Elan 2 blue off" ID="7">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="1" Channel="0">0</Value>
+  </Function>
+  <Function Type="Scene" Name="CP Marching squares in halves" ID="8">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="3" Channel="0">190</Value>
+  </Function>
+  <Function Type="Scene" Name="Elan 2 green off" ID="9">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="1" Channel="2">0</Value>
+  </Function>
+  <Function Type="Scene" Name="Elan 2 red off" ID="10">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="1" Channel="1">0</Value>
+  </Function>
+  <Function Type="Scene" Name="Elan 2 red" ID="11">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="1" Channel="1">11</Value>
+  </Function>
+  <Function Type="Scene" Name="Scorpion off" ID="12">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="4">0</Value>
+   <Value Fixture="4" Channel="5">0</Value>
+   <Value Fixture="4" Channel="6">0</Value>
+  </Function>
+  <Function Type="Scene" Name="Scorpion sound (red)" ID="13">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="4" Channel="0">140</Value>
+  </Function>
+  <Function Type="Scene" Name="Scorpion sound (green)" ID="14">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="4" Channel="0">160</Value>
+  </Function>
+  <Function Type="Scene" Name="Elan 1 green" ID="15">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="0" Channel="1">11</Value>
+  </Function>
+  <Function Type="Scene" Name="Elan 1 red" ID="16">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="0" Channel="0">11</Value>
+  </Function>
+  <Function Type="Scene" Name="Elan 2 blue" ID="17">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="1" Channel="0">11</Value>
+  </Function>
+  <Function Type="Scene" Name="Elan 2 green" ID="18">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="1" Channel="2">11</Value>
+  </Function>
+  <Function Type="Scene" Name="Scorpion sound (red&amp;green)" ID="19">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="4" Channel="0">180</Value>
+  </Function>
+  <Function Type="Scene" Name="CP Red random white square" ID="20">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="3" Channel="0">130</Value>
+  </Function>
+  <Function Type="Scene" Name="CP Red random white squares (strobe)" ID="21">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="3" Channel="0">140</Value>
+  </Function>
+  <Function Type="Scene" Name="CP Red with marching squares" ID="22">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="3" Channel="0">200</Value>
+  </Function>
+  <Function Type="Scene" Name="CP Red marching quarters" ID="23">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="3" Channel="0">150</Value>
+  </Function>
+  <Function Type="Scene" Name="CP Red marching square" ID="24">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="3" Channel="0">160</Value>
+  </Function>
+  <Function Type="Scene" Name="CP Snake" ID="25">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="3" Channel="0">170</Value>
+  </Function>
+  <Function Type="Scene" Name="CP White marching square/bar on beat" ID="27">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="3" Channel="0">210</Value>
+  </Function>
+  <Function Type="Scene" Name="CP Red marching sqares on beat" ID="28">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="3" Channel="0">220</Value>
+  </Function>
+  <Function Type="Scene" Name="CP All sound modes" ID="29">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="3" Channel="0">240</Value>
+  </Function>
+  <Function Type="Scene" Name="CP Gradual color change" ID="30">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="3" Channel="0">230</Value>
+  </Function>
+  <Function Type="Scene" Name="CP Off" ID="31">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="4">0</Value>
+   <Value Fixture="3" Channel="5">0</Value>
+   <Value Fixture="3" Channel="6">0</Value>
+   <Value Fixture="3" Channel="7">0</Value>
+   <Value Fixture="3" Channel="8">0</Value>
+   <Value Fixture="3" Channel="9">0</Value>
+   <Value Fixture="3" Channel="10">0</Value>
+   <Value Fixture="3" Channel="11">0</Value>
+   <Value Fixture="3" Channel="12">0</Value>
+   <Value Fixture="3" Channel="13">0</Value>
+   <Value Fixture="3" Channel="14">0</Value>
+   <Value Fixture="3" Channel="15">0</Value>
+   <Value Fixture="3" Channel="16">0</Value>
+   <Value Fixture="3" Channel="17">0</Value>
+   <Value Fixture="3" Channel="18">0</Value>
+   <Value Fixture="3" Channel="19">0</Value>
+   <Value Fixture="3" Channel="20">0</Value>
+   <Value Fixture="3" Channel="21">0</Value>
+   <Value Fixture="3" Channel="22">0</Value>
+   <Value Fixture="3" Channel="23">0</Value>
+   <Value Fixture="3" Channel="24">0</Value>
+   <Value Fixture="3" Channel="25">0</Value>
+   <Value Fixture="3" Channel="26">0</Value>
+  </Function>
+  <Function Type="Scene" Name="Scorpion auto (red, slow)" ID="32">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="4" Channel="0">40</Value>
+  </Function>
+  <Function Type="Scene" Name="Scorpion auto (green, slow)" ID="33">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="4" Channel="0">80</Value>
+  </Function>
+  <Function Type="Scene" Name="Scorpion red" ID="34">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">5</Value>
+  </Function>
+  <Function Type="Scene" Name="Scorpion red geen" ID="35">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">57</Value>
+  </Function>
+  <Function Type="Scene" Name="Scorpion red strobing" ID="36">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">113</Value>
+  </Function>
+  <Function Type="Scene" Name="Scorpion green strobing" ID="37">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">85</Value>
+  </Function>
+  <Function Type="Scene" Name="Scorpion red on green strobing" ID="38">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">141</Value>
+  </Function>
+  <Function Type="Scene" Name="Scorpion green on red strobing" ID="39">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">169</Value>
+  </Function>
+  <Function Type="Scene" Name="Scorpion red green strobing" ID="40">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">198</Value>
+  </Function>
+  <Function Type="Scene" Name="Scorpion red green alt. strobing" ID="41">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">225</Value>
+  </Function>
+  <Function Type="Scene" Name="Scorpion strobe to sound" ID="42">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="4" Channel="2">255</Value>
+  </Function>
+  <Function Type="Scene" Name="Scorpion auto (green, fast)" ID="43">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="4" Channel="0">60</Value>
+  </Function>
+  <Function Type="Scene" Name="Scorpion auto (red+green, fast)" ID="44">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="4" Channel="0">100</Value>
+  </Function>
+  <Function Type="Scene" Name="Scorpion auto (red+green, slow)" ID="45">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="4" Channel="0">120</Value>
+  </Function>
+  <Function Type="Scene" Name="Scorpion auto (red, fast)" ID="46">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="4" Channel="0">20</Value>
+  </Function>
+  <Function Type="Scene" Name="Comscan open" ID="47">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="5" Channel="3">0</Value>
+  </Function>
+  <Function Type="Scene" Name="Comscan yellow knot" ID="48">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="5" Channel="3">8</Value>
+  </Function>
+  <Function Type="Scene" Name="Comscan red swirl" ID="49">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="5" Channel="3">15</Value>
+  </Function>
+  <Function Type="Scene" Name="Comscan green stripes" ID="50">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="5" Channel="3">22</Value>
+  </Function>
+  <Function Type="Scene" Name="Comscan blue star" ID="51">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="5" Channel="3">29</Value>
+  </Function>
+  <Function Type="Scene" Name="Comscan rgb yinyang shake" ID="52">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="5" Channel="3">100</Value>
+  </Function>
+  <Function Type="Scene" Name="Comscan purple dots" ID="53">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="5" Channel="3">43</Value>
+  </Function>
+  <Function Type="Scene" Name="Comscan light blue web" ID="54">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="5" Channel="3">50</Value>
+  </Function>
+  <Function Type="Scene" Name="Comscan blue and purple circle" ID="55">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="5" Channel="3">57</Value>
+  </Function>
+  <Function Type="Scene" Name="Comscan open shake" ID="56">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="5" Channel="3">64</Value>
+  </Function>
+  <Function Type="Scene" Name="Comscan rgb yinyang" ID="57">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="5" Channel="3">36</Value>
+  </Function>
+  <Function Type="Scene" Name="Comscan blue and purple circle shake" ID="58">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="5" Channel="3">121</Value>
+  </Function>
+  <Function Type="Scene" Name="Comscan blue star shake" ID="59">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="5" Channel="3">93</Value>
+  </Function>
+  <Function Type="Scene" Name="Comscan green stripes shake" ID="60">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="5" Channel="3">86</Value>
+  </Function>
+  <Function Type="Scene" Name="Comscan light blue web shake" ID="61">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="5" Channel="3">114</Value>
+  </Function>
+  <Function Type="Scene" Name="Comscan purple dots shake" ID="62">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="5" Channel="3">107</Value>
+  </Function>
+  <Function Type="Scene" Name="Comscan red swirl shake" ID="63">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="5" Channel="3">79</Value>
+  </Function>
+  <Function Type="Scene" Name="Comscan yellow knot shake" ID="64">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="5" Channel="3">72</Value>
+  </Function>
+  <Function Type="Scene" Name="Comscan blackout" ID="65">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="5" Channel="2">0</Value>
+  </Function>
+  <Function Type="EFX" Name="Comscan circle" ID="66">
+   <Fixture>
+    <ID>5</ID>
+    <Direction>Forward</Direction>
+    <Intensity>255</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="10000" FadeOut="15" FadeIn="15"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Circle</Algorithm>
+   <Width>78</Width>
+   <Height>65</Height>
+   <Rotation>0</Rotation>
+   <Axis Name="X">
+    <Offset>128</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>137</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function Type="EFX" Name="Comscan pattern" ID="67">
+   <Fixture>
+    <ID>5</ID>
+    <Direction>Forward</Direction>
+    <Intensity>255</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="20000" FadeOut="15" FadeIn="15"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Lissajous</Algorithm>
+   <Width>127</Width>
+   <Height>78</Height>
+   <Rotation>0</Rotation>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>87</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function Type="Scene" Name="Elan 1 blue" ID="73">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="0" Channel="2">11</Value>
+  </Function>
+  <Function Type="Scene" Name="Elan 1 blue off" ID="74">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="0" Channel="2">0</Value>
+  </Function>
+  <Function Type="Scene" Name="Elan 1 red off" ID="75">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="0" Channel="0">0</Value>
+  </Function>
+  <Function Type="Scene" Name="Autos" ID="77">
+   <Speed Duration="0" FadeOut="1000" FadeIn="1000"/>
+   <Value Fixture="3" Channel="0">240</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="4">0</Value>
+   <Value Fixture="3" Channel="5">0</Value>
+   <Value Fixture="3" Channel="6">0</Value>
+   <Value Fixture="3" Channel="7">0</Value>
+   <Value Fixture="3" Channel="8">0</Value>
+   <Value Fixture="3" Channel="9">0</Value>
+   <Value Fixture="3" Channel="10">0</Value>
+   <Value Fixture="3" Channel="11">0</Value>
+   <Value Fixture="3" Channel="12">0</Value>
+   <Value Fixture="3" Channel="13">0</Value>
+   <Value Fixture="3" Channel="14">0</Value>
+   <Value Fixture="3" Channel="15">0</Value>
+   <Value Fixture="3" Channel="16">0</Value>
+   <Value Fixture="3" Channel="17">0</Value>
+   <Value Fixture="3" Channel="18">0</Value>
+   <Value Fixture="3" Channel="19">0</Value>
+   <Value Fixture="3" Channel="20">0</Value>
+   <Value Fixture="3" Channel="21">0</Value>
+   <Value Fixture="3" Channel="22">0</Value>
+   <Value Fixture="3" Channel="23">0</Value>
+   <Value Fixture="3" Channel="24">0</Value>
+   <Value Fixture="3" Channel="25">0</Value>
+   <Value Fixture="3" Channel="26">0</Value>
+   <Value Fixture="4" Channel="0">180</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="4">0</Value>
+   <Value Fixture="4" Channel="5">0</Value>
+   <Value Fixture="4" Channel="6">0</Value>
+  </Function>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>Sunken</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+   <Frame Caption="">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Width="470" X="30" Y="520" Height="220" Visible="True"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <SoloFrame Caption="">
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Width="380" X="10" Y="10" Height="200" Visible="True"/>
+     <AllowChildren>True</AllowChildren>
+     <AllowResize>True</AllowResize>
+     <Button Icon="" Caption="CP All sound modes">
+      <Function ID="29"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="10" Y="10" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="CP White marching square/bar on beat">
+      <Function ID="27"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="70" Y="10" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="CP Square at a time color change">
+      <Function ID="4"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="130" Y="10" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="CP Snake">
+      <Function ID="25"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="190" Y="10" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="CP Sharp color change">
+      <Function ID="0"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="250" Y="10" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="CP Red with marching squares">
+      <Function ID="22"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="310" Y="10" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="CP Red random white squares (strobe)">
+      <Function ID="21"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="10" Y="70" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="CP Red random white square">
+      <Function ID="20"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="70" Y="70" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="CP Red marching white bar">
+      <Function ID="6"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="130" Y="70" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="CP Red marching square">
+      <Function ID="24"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="190" Y="70" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="CP Red marching sqares on beat">
+      <Function ID="28"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="250" Y="70" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="CP Red marching quarters">
+      <Function ID="23"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="310" Y="70" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="CP Off">
+      <Function ID="31"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="10" Y="130" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="CP Marching squares in halves">
+      <Function ID="8"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="70" Y="130" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="CP Marching squares">
+      <Function ID="1"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="130" Y="130" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="CP Marching quarters">
+      <Function ID="5"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="190" Y="130" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="CP Marching bars">
+      <Function ID="2"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="250" Y="130" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="CP Gradual color change">
+      <Function ID="30"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="310" Y="130" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+    </SoloFrame>
+    <Slider Caption="Speed" InvertedAppearance="false">
+     <WindowState Width="60" X="400" Y="10" Height="200" Visible="True"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
+     <Level HighLimit="255" LowLimit="0" Value="44">
+      <Channel Fixture="3">1</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+   </Frame>
+   <Frame Caption="">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Width="150" X="510" Y="510" Height="220" Visible="True"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <Slider Caption="Pearl level" InvertedAppearance="false">
+     <WindowState Width="60" X="20" Y="10" Height="200" Visible="True"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
+     <Level HighLimit="255" LowLimit="0" Value="112">
+      <Channel Fixture="2">0</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="Pearl Rotation" InvertedAppearance="false">
+     <WindowState Width="60" X="80" Y="10" Height="200" Visible="True"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
+     <Level HighLimit="255" LowLimit="0" Value="59">
+      <Channel Fixture="2">1</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+   </Frame>
+   <Frame Caption="">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Width="440" X="1120" Y="10" Height="240" Visible="True"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <Frame Caption="">
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Width="210" X="220" Y="0" Height="230" Visible="True"/>
+     <AllowChildren>True</AllowChildren>
+     <AllowResize>True</AllowResize>
+     <SoloFrame Caption="">
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <WindowState Width="120" X="10" Y="10" Height="70" Visible="True"/>
+      <AllowChildren>True</AllowChildren>
+      <AllowResize>True</AllowResize>
+      <Button Icon="" Caption="Elan 1 red">
+       <Function ID="16"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <WindowState Width="50" X="10" Y="10" Height="50" Visible="True"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+      </Button>
+      <Button Icon="" Caption="Elan 1 red off">
+       <Function ID="75"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <WindowState Width="50" X="60" Y="10" Height="50" Visible="True"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+      </Button>
+     </SoloFrame>
+     <Slider Caption="Strobe" InvertedAppearance="false">
+      <WindowState Width="60" X="140" Y="10" Height="210" Visible="True"/>
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
+      <Level HighLimit="255" LowLimit="0" Value="0">
+       <Channel Fixture="0">3</Channel>
+      </Level>
+      <Playback>
+       <Function>4294967295</Function>
+      </Playback>
+     </Slider>
+     <SoloFrame Caption="">
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <WindowState Width="120" X="10" Y="80" Height="70" Visible="True"/>
+      <AllowChildren>True</AllowChildren>
+      <AllowResize>True</AllowResize>
+      <Button Icon="" Caption="Elan 1 green">
+       <Function ID="15"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <WindowState Width="50" X="10" Y="10" Height="50" Visible="True"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+      </Button>
+      <Button Icon="" Caption="Elan 1 green off">
+       <Function ID="3"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <WindowState Width="50" X="60" Y="10" Height="50" Visible="True"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+      </Button>
+     </SoloFrame>
+     <SoloFrame Caption="">
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <WindowState Width="120" X="10" Y="150" Height="70" Visible="True"/>
+      <AllowChildren>True</AllowChildren>
+      <AllowResize>True</AllowResize>
+      <Button Icon="" Caption="Elan 1 blue">
+       <Function ID="73"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <WindowState Width="50" X="10" Y="10" Height="50" Visible="True"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+      </Button>
+      <Button Icon="" Caption="Elan 1 blue off">
+       <Function ID="74"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <WindowState Width="50" X="60" Y="10" Height="50" Visible="True"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+      </Button>
+     </SoloFrame>
+    </Frame>
+    <Frame Caption="">
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Width="210" X="0" Y="0" Height="230" Visible="True"/>
+     <AllowChildren>True</AllowChildren>
+     <AllowResize>True</AllowResize>
+     <SoloFrame Caption="">
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <WindowState Width="120" X="10" Y="10" Height="70" Visible="True"/>
+      <AllowChildren>True</AllowChildren>
+      <AllowResize>True</AllowResize>
+      <Button Icon="" Caption="Elan 2 red off">
+       <Function ID="10"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <WindowState Width="50" X="60" Y="10" Height="50" Visible="True"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+      </Button>
+      <Button Icon="" Caption="Elan 2 red">
+       <Function ID="11"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <WindowState Width="50" X="10" Y="10" Height="50" Visible="True"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+      </Button>
+     </SoloFrame>
+     <SoloFrame Caption="">
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <WindowState Width="120" X="10" Y="80" Height="70" Visible="True"/>
+      <AllowChildren>True</AllowChildren>
+      <AllowResize>True</AllowResize>
+      <Button Icon="" Caption="Elan 2 green">
+       <Function ID="18"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <WindowState Width="50" X="10" Y="10" Height="50" Visible="True"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+      </Button>
+      <Button Icon="" Caption="Elan 2 green off">
+       <Function ID="9"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <WindowState Width="50" X="60" Y="10" Height="50" Visible="True"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+      </Button>
+     </SoloFrame>
+     <SoloFrame Caption="">
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <WindowState Width="120" X="10" Y="150" Height="70" Visible="True"/>
+      <AllowChildren>True</AllowChildren>
+      <AllowResize>True</AllowResize>
+      <Button Icon="" Caption="Elan 2 blue">
+       <Function ID="17"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <WindowState Width="50" X="10" Y="10" Height="50" Visible="True"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+      </Button>
+      <Button Icon="" Caption="Elan 2 blue off">
+       <Function ID="7"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <WindowState Width="50" X="60" Y="10" Height="50" Visible="True"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+      </Button>
+     </SoloFrame>
+     <Slider Caption="Strobe" InvertedAppearance="false">
+      <WindowState Width="60" X="140" Y="10" Height="210" Visible="True"/>
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
+      <Level HighLimit="255" LowLimit="0" Value="0">
+       <Channel Fixture="1">3</Channel>
+      </Level>
+      <Playback>
+       <Function>4294967295</Function>
+      </Playback>
+     </Slider>
+    </Frame>
+   </Frame>
+   <Frame Caption="">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Width="1100" X="10" Y="0" Height="230" Visible="True"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <Slider Caption="Strobe" InvertedAppearance="false">
+     <WindowState Width="60" X="460" Y="10" Height="200" Visible="True"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
+     <Level HighLimit="255" LowLimit="0" Value="255">
+      <Channel Fixture="4">2</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <SoloFrame Caption="">
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Width="450" X="10" Y="10" Height="200" Visible="True"/>
+     <AllowChildren>True</AllowChildren>
+     <AllowResize>True</AllowResize>
+     <Button Icon="" Caption="Scorpion sound (red)">
+      <Function ID="13"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="70" Y="10" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="Scorpion sound (red&amp;green)">
+      <Function ID="19"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="130" Y="10" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="Scorpion sound (green)">
+      <Function ID="14"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="190" Y="10" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="Scorpion red strobing">
+      <Function ID="36"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="250" Y="10" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="Scorpion red on green strobing">
+      <Function ID="38"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="10" Y="70" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="Scorpion red green strobing">
+      <Function ID="40"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="70" Y="70" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="Scorpion red green alt. strobing">
+      <Function ID="41"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="130" Y="70" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="Scorpion red geen">
+      <Function ID="35"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="190" Y="70" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="Scorpion red">
+      <Function ID="34"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="250" Y="70" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="Scorpion off">
+      <Function ID="12"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="10" Y="130" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="Scorpion green strobing">
+      <Function ID="37"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="70" Y="130" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="Scorpion green on red strobing">
+      <Function ID="39"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="130" Y="130" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="Scorpion auto (red, slow)">
+      <Function ID="32"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="190" Y="130" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="Scorpion auto (red, fast)">
+      <Function ID="46"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="250" Y="130" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="Scorpion auto (green, slow)">
+      <Function ID="33"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="310" Y="10" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="Scorpion auto (green, fast)">
+      <Function ID="43"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="370" Y="10" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="Scorpion auto (red+green, slow)">
+      <Function ID="45"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="310" Y="70" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="Scorpion auto (red+green, fast)">
+      <Function ID="44"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="370" Y="70" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+    </SoloFrame>
+    <Slider Caption="Motor 1 rotation" InvertedAppearance="false">
+     <WindowState Width="60" X="520" Y="10" Height="200" Visible="True"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
+     <Level HighLimit="255" LowLimit="0" Value="89">
+      <Channel Fixture="4">3</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="Motor 1 stutter" InvertedAppearance="false">
+     <WindowState Width="60" X="590" Y="10" Height="200" Visible="True"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
+     <Level HighLimit="255" LowLimit="0" Value="83">
+      <Channel Fixture="4">4</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="Motor 2 rotation" InvertedAppearance="false">
+     <WindowState Width="60" X="660" Y="10" Height="200" Visible="True"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
+     <Level HighLimit="255" LowLimit="0" Value="62">
+      <Channel Fixture="4">5</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="Motor 2 stutter" InvertedAppearance="false">
+     <WindowState Width="60" X="730" Y="10" Height="200" Visible="True"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
+     <Level HighLimit="255" LowLimit="0" Value="106">
+      <Channel Fixture="4">6</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <SoloFrame Caption="">
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Width="220" X="860" Y="20" Height="190" Visible="True"/>
+     <AllowChildren>True</AllowChildren>
+     <AllowResize>True</AllowResize>
+     <Button Icon="" Caption="">
+      <Function ID="4294967295"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="50" X="20" Y="20" Height="50" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+    </SoloFrame>
+   </Frame>
+   <Frame Caption="">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Width="910" X="20" Y="240" Height="230" Visible="True"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <SoloFrame Caption="">
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Width="440" X="230" Y="10" Height="200" Visible="True"/>
+     <AllowChildren>True</AllowChildren>
+     <AllowResize>True</AllowResize>
+     <Button Icon="" Caption="Comscan yellow knot shake">
+      <Function ID="64"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="10" Y="10" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="Comscan yellow knot">
+      <Function ID="48"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="70" Y="10" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="Comscan rgb yinyang shake">
+      <Function ID="52"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="130" Y="10" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="Comscan rgb yinyang">
+      <Function ID="57"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="190" Y="10" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="Comscan red swirl shake">
+      <Function ID="63"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="250" Y="10" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="Comscan red swirl">
+      <Function ID="49"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="310" Y="10" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="Comscan purple dots shake">
+      <Function ID="62"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="10" Y="70" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="Comscan purple dots">
+      <Function ID="53"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="70" Y="70" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="Comscan open shake">
+      <Function ID="56"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="130" Y="70" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="Comscan open">
+      <Function ID="47"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="190" Y="70" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="Comscan light blue web shake">
+      <Function ID="61"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="250" Y="70" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="Comscan light blue web">
+      <Function ID="54"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="310" Y="70" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="Comscan green stripes shake">
+      <Function ID="60"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="10" Y="130" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="Comscan green stripes">
+      <Function ID="50"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="70" Y="130" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="Comscan blue star shake">
+      <Function ID="59"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="130" Y="130" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="Comscan blue star">
+      <Function ID="51"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="190" Y="130" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="Comscan blue and purple circle shake">
+      <Function ID="58"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="250" Y="130" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="Comscan blue and purple circle">
+      <Function ID="55"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="310" Y="130" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="Comscan blackout">
+      <Function ID="65"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="370" Y="10" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+    </SoloFrame>
+    <XYPad Caption="XY Pad">
+     <Fixture ID="5">
+      <Axis HighLimit="1" LowLimit="0" Reverse="True" ID="X"/>
+      <Axis HighLimit="1" LowLimit="0" Reverse="True" ID="Y"/>
+     </Fixture>
+     <Pan Position="129"/>
+     <Tilt Position="94"/>
+     <WindowState Width="220" X="10" Y="10" Height="220" Visible="True"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </XYPad>
+    <Frame Caption="">
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Width="150" X="670" Y="0" Height="220" Visible="True"/>
+     <AllowChildren>True</AllowChildren>
+     <AllowResize>True</AllowResize>
+     <Slider Caption="dimmer" InvertedAppearance="false">
+      <WindowState Width="60" X="10" Y="10" Height="200" Visible="True"/>
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
+      <Level HighLimit="255" LowLimit="0" Value="255">
+       <Channel Fixture="5">4</Channel>
+      </Level>
+      <Playback>
+       <Function>4294967295</Function>
+      </Playback>
+     </Slider>
+     <Slider Caption="strobe" InvertedAppearance="false">
+      <WindowState Width="60" X="80" Y="10" Height="200" Visible="True"/>
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
+      <Level HighLimit="255" LowLimit="0" Value="255">
+       <Channel Fixture="5">2</Channel>
+      </Level>
+      <Playback>
+       <Function>4294967295</Function>
+      </Playback>
+     </Slider>
+    </Frame>
+    <SoloFrame Caption="">
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Width="90" X="830" Y="10" Height="150" Visible="True"/>
+     <AllowChildren>True</AllowChildren>
+     <AllowResize>True</AllowResize>
+     <Button Icon="" Caption="Comscan pattern">
+      <Function ID="67"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="10" Y="70" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" Caption="Comscan circle">
+      <Function ID="66"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="60" X="10" Y="10" Height="60" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+    </SoloFrame>
+   </Frame>
+   <Slider Caption="Movement" InvertedAppearance="true">
+    <WindowState Width="60" X="960" Y="290" Height="200" Visible="True"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <SliderMode ValueDisplayStyle="Exact">Playback</SliderMode>
+    <Level HighLimit="255" LowLimit="0" Value="0"/>
+    <Playback>
+     <Function>4294967295</Function>
+    </Playback>
+   </Slider>
+  </Frame>
+  <Properties>
+   <Grid Enabled="True" YResolution="10" XResolution="10"/>
+   <Keyboard TapModifier="67108864" RepeatOff="True" Grab="True"/>
+   <GrandMaster ChannelMode="Intensity" Visible="False" ValueMode="Reduce"/>
+   <Blackout/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine>
+   <CueStack ID="0">
+    <Speed Duration="4294967295" FadeOut="0" FadeIn="0"/>
+   </CueStack>
+  </Engine>
+ </SimpleDesk>
+</Workspace>
+
